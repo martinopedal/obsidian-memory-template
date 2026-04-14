@@ -1,0 +1,24 @@
+# Obsidian
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache/
+.obsidian/.obsidian-git-backup-*
+.trash/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Node (Squad)
+node_modules/
+
+# Temp
+*.tmp
+*.swp
+
+# Secrets (never commit these)
+.env
+.env.*
+*.pem
+*.key
