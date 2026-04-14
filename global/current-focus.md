@@ -13,15 +13,15 @@ What you are actively working on. Copilot reads this on session start instead of
 
 ## Active Projects
 
-(list your current projects here)
+<!-- list your current projects here, link to their wiki/projects/ indexes -->
 
 ## This Week
 
-(what you are focused on this week)
+<!-- what you are focused on this week -->
 
 ## Open Loops
 
-(capture action items and unfinished threads here)
+<!-- capture action items and unfinished threads here -->
 
 ## Related
 

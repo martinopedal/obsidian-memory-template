@@ -22,7 +22,7 @@ Document your development environment here.
 
 | Tool | Version | Install |
 |------|---------|---------|
-| | | |
+<!-- list your tools here -->
 
 ## Related
 

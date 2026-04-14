@@ -9,19 +9,18 @@ updated: YYYY-MM-DD
 
 # Coding Standards
 
-Add your coding conventions here. Some starting points:
+Add your coding conventions here. Organize by language or framework.
+
+Some sections to consider:
 
 ## General
+<!-- naming conventions, composition vs inheritance, commenting style -->
 
-- Descriptive names over abbreviations
-- Composition over inheritance
-- Keep functions short and single-purpose
-- Comments explain "why", never "what"
+## Your Primary Language
+<!-- language-specific rules -->
 
 ## Git
-
-- Imperative commit messages: "Add feature" not "Added feature"
-- Atomic commits: one logical change per commit
+<!-- commit message format, branching strategy -->
 
 ## Related
 
