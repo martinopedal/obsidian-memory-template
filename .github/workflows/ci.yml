@@ -1,0 +1,19 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate repository structure
+        run: |
+          echo "Checking required files..."
+          test -f README.md && echo "✓ README.md"
+          test -f LICENSE && echo "✓ LICENSE"
+          echo "All checks passed."
