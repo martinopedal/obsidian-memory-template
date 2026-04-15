@@ -20,3 +20,12 @@ memory for GitHub Copilot across all sessions and projects.
 | curate | On demand | Process inbox, fix links, merge duplicates |
 | new-project | On demand | Add a new project memory bank |
 | weekly-review | End of week | Review week, surface patterns, plan ahead |
+
+## Security rules
+- No secrets in code - use environment variables or GitHub Secrets
+- SHA-pin all GitHub Actions to commit SHAs
+- Use actions/checkout@v6 (Node.js 24 compatible)
+- No enforce_admins on branch protection
+
+## GitHub-first principle
+Validate changes in GitHub Actions, not locally. Push, trigger workflow, check logs, iterate.
